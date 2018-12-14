@@ -51,7 +51,7 @@
           <BuildableReference
             BuildableIdentifier = "primary"
             BuildableName = "'$(TARGET_NAME)'"
-            BlueprintName = "NIOHTTP1Tests"
+            BlueprintName = "NIOWebSocketTests"
             ReferencedContainer = "container:swift-nio.xcodeproj">
           </BuildableReference>
         </TestableReference>
@@ -60,7 +60,7 @@
           <BuildableReference
             BuildableIdentifier = "primary"
             BuildableName = "'$(TARGET_NAME)'"
-            BlueprintName = "NIOWebSocketTests"
+            BlueprintName = "NIOHTTP1Tests"
             ReferencedContainer = "container:swift-nio.xcodeproj">
           </BuildableReference>
         </TestableReference>
