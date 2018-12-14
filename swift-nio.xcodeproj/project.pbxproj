@@ -1371,7 +1371,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOAtomics_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1412,7 +1412,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOAtomics_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1507,7 +1507,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIODarwin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1548,7 +1548,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIODarwin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1633,7 +1633,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1674,7 +1674,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1769,7 +1769,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOLinux_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1810,7 +1810,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOLinux_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1910,7 +1910,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOSHA1_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -1951,7 +1951,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOSHA1_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -2036,7 +2036,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOZlib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -2077,7 +2077,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/CNIOZlib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -2158,7 +2158,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIO_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -2206,7 +2206,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIO_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -2675,7 +2675,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOChatClient_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -2716,7 +2716,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOChatClient_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -2854,7 +2854,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOChatServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -2895,7 +2895,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOChatServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -3031,7 +3031,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOConcurrencyHelpers_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -3071,7 +3071,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOConcurrencyHelpers_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -3288,7 +3288,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOEchoClient_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -3329,7 +3329,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOEchoClient_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -3489,7 +3489,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOEchoServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -3530,7 +3530,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOEchoServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -3669,7 +3669,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOFoundationCompat_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -3717,7 +3717,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOFoundationCompat_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -3863,7 +3863,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOHTTP1_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -3908,7 +3908,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOHTTP1_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -4117,7 +4117,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOHTTP1Server_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -4160,7 +4160,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOHTTP1Server_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -4748,7 +4748,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOMulticastChat_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -4789,7 +4789,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOMulticastChat_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -4929,7 +4929,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOPerformanceTester_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -4972,7 +4972,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOPerformanceTester_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -5182,7 +5182,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOPriorityQueue_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -5221,7 +5221,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOPriorityQueue_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -5298,7 +5298,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOTLS_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -5341,7 +5341,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOTLS_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -6343,7 +6343,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOWebSocket_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -6388,7 +6388,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOWebSocket_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks"
             );
             OTHER_CFLAGS = (
                "$(inherited)"
@@ -6606,7 +6606,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOWebSocketServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
@@ -6654,7 +6654,7 @@
             INFOPLIST_FILE = "swift-nio.xcodeproj/NIOWebSocketServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path/../Frameworks", "@loader_path/../Frameworks",
                "@executable_path"
             );
             OTHER_CFLAGS = (
